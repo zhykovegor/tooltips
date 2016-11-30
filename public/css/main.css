@@ -1,0 +1,22 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #c9d3e2;
+  height: 100%;
+}
+
+#centralDiv {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#inputText {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 100px;
+}
+
+.button: {
+  background-color: #000000;
+}
