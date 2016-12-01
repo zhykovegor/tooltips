@@ -3,12 +3,27 @@
 <head>
 	<script type="text/javascript" src="..\node_modules\angular\angular.js"></script>
 	<script type="text/javascript" src="build\bundle.min.js"></script>
+	<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css\main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.green-lime.min.css" />
 </head>
 <body>
 	<div id="centralDiv">
-		<textarea id="inputText" rows="5" placeholder="Start type your text here..."></textarea>
-		<button id="addButton" style="float:right" class="button">Add tip</button>
+  	<div style="width: 100%; margin-top: 100px" class="mdl-textfield mdl-js-textfield">
+    	<textarea class="mdl-textfield__input" type="text" rows= "3" id="text" ></textarea>
+    	<label class="mdl-textfield__label" for="text">Start to type some text here...</label>
+  	</div>
+
+			<button style="float: right" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Add tip</button>
+
+		<div id="content" style="width: 100%; margin-top: 50px">
+			<div class="tip">Our plans include unlimited texting, calling, and data, starting as low as $13.99 per month with no contracts. We even have a free, Wi-Fi only version of TextNow, available for download on your existing device.</div>
+			<div class="tip">Our plans include unlimited texting, calling, and data, starting as low as $13.99 per month with no contracts. We even have a free, Wi-Fi only version of TextNow, available for download on your existing device.</div>
+			<div class="tip">Send messages and make calls on your computer or tablet, then access them from your phone while on the go.</div>
+			<div class="tip">Wi-Fi can provide you with added coverage in places where cell networks don't always work - like basements and apartments. No roaming fees for Wi-Fi connections also means you stay connected while travelling the world.</div>
+			<div class="tip">TextNow offers low-cost, international calling to over 230 countries. Stay connected longer with rates starting at less than $0.01 per minute.</div>
+		</div>
 	</div>
 </body>
 </html>
