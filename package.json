@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "The tooltips web app",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Egor Zhykov",
   "license": "ISC",
-  "dependency": {
-  	"angular": "*"
+  "dependencies": {
+    "angular": "^1.5.9",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "postcss-loader": "^1.2.0"
   }
 }
